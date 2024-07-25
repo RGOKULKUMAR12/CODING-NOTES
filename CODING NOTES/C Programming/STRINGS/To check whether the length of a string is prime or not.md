@@ -1,3 +1,6 @@
+
+***hello***
+
 ```C
 #include<stdio.h>
 #include<string.h>
@@ -11,7 +14,6 @@ int isprime(int x){
   }
   return 1;
 }
-
 
 int main(){
   char s[100];
