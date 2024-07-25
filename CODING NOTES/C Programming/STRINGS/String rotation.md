@@ -55,7 +55,6 @@ int main(){
   scanf("%d",&k);
 
   rightrotate(s,k);
-  
   printf("%s",s);
   
 }

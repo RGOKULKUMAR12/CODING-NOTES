@@ -17,7 +17,6 @@ int main(){
   }
 }
 ```
-
 ***2. CAPITALIZING FIRST WORD
 
 ```C
@@ -68,3 +67,72 @@ int main(){
   }
 }
 ```
+***4. PRINTING STRINGS WITH ODD/EVEN INDEX[2D]
+
+```c
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+int main(){
+  int n;
+  scanf("%d",&n);
+  
+  char s[n][100];
+  for(int i=0;i<n;i++){
+    scanf("%s",s[i]);
+  }
+  
+  for(int i=0;i<n;i++){
+    if(i%2 == 0){
+      printf("%s\n",s[i]);
+	    }
+	    //printf("\n");
+	}
+}
+```
+***5. REVERSING STRING AT ODD/EVEN INDEX[2D]
+
+```c
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+int main(){
+  int n;
+  scanf("%d",&n);
+  
+  char s[n][100];
+  for(int i=0;i<n;i++){
+    scanf("%s",s[i]);
+  }
+  
+  for(int i=0;i<n;i++){
+    if(i%2 == 0){
+      for(int j=strlen(s[i])-1;j>=0;j--){
+        printf("%c",s[i][j]);
+      }
+      printf("\n");
+    }
+    else  printf("%s\n",s[i]);
+  }
+}
+```
+***6. REPLACING LAST CHARACTER WITH ANOTHER CHARACTER
+
+```c
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+int main(){
+  char s[100];
+  fgets(s,sizeof(s),stdin);
+  s[strcspn(s,"\n")]='\0';
+  char ch;
+  scanf("%c",&ch);
+  s[strlen(s)-1] = ch;
+  printf("%s",s);
+}
+```
+
