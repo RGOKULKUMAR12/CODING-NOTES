@@ -1,1 +1,2 @@
-![[../../IMAGES/Pasted image 20240726122706.png]]
+
+![[../../IMAGES/Pasted image 20240726122813.png]]
