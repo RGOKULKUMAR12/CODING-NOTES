@@ -1,4 +1,28 @@
-***1. PANAGRAM
+***1. HASHING BASIC***
+
+```C
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+  char str[100];
+  fgets(str,sizeof(str),stdin);
+    
+  char hash[256] = {0};
+  for(int i=0;i<strlen(str);i++){
+      hash[str[i]]++;
+    }
+    
+  for(int i=0;i<256;i++){
+      if(hash[i]>0)
+        printf("%c %d\n",i,hash[i]);
+    }
+  return 0;
+}
+```
+---
+***2. PANAGRAM***
 
 ```C
 #include<stdio.h>
@@ -26,8 +50,8 @@ int main(){
   printf("panagram");
 }
 ```
-
-***2.ANAGRAM
+---
+***3.ANAGRAM***
 
 ```C
 #include<stdio.h>
@@ -45,16 +69,13 @@ int is_anagram(char s[],char s2[]){
   for(int i=0;i<x1;i++){
     hash[tolower(s[i])-'a']++;
     hash[tolower(s2[i])-'a']--;
-    
   }
-  
   for(int i=0;i<26;i++){
     if(hash[i]!=0)  return 0;
   }
   return 1;
 }
 
-
 int main(){
   char s[100];
   fgets(s,sizeof(s),stdin);
@@ -63,61 +84,16 @@ int main(){
   char s2[100];
   fgets(s2,sizeof(s2),stdin);
   s2[strcspn(s2,"\n")]='\0';
-  
-  /*if(is_anagram(s,s2)){
+  if(is_anagram(s,s2)){
     printf("anagram");
   }
   else{
     printf("not anagram");
-  }*/
-  
+  }
 }
 ```
-
-***2.1 ANAGRAM(WITHOUT HASH)
-
-```C
-#include<stdio.h>
-#include<string.h>
-#include<ctype.h>
-
-int main(){
-  char s[100];
-  fgets(s,sizeof(s),stdin);
-  s[strcspn(s,"\n")]='\0';
-  
-  char s2[100];
-  fgets(s2,sizeof(s2),stdin);
-  s2[strcspn(s2,"\n")]='\0';
-  
-  int x1 = strlen(s);
-  int x2 = strlen(s2);
-  if(x1 != x2)
-  {
-    printf("not a anagram");
-    return 0;
-  }
-  int not_found = 0,found;
-  for(int i=0;i<x1;i++){
-    found =0;
-    for(int j=0;j<x1;j++){
-      if(s[i] == s2[j]){
-	        found = 1;
-	        break;
-       }
-    }
-    if(found == 0){
-	    not_found = 1;
-	    break;
-    }
-  }
-  if(not_found == 0)  
-	  printf("anagram");
-  else 
-	  printf("not  a anagram");
-```
-
-***4. ISOMORPHIC
+---
+***4. ISOMORPHIC***
 
 ```C
 #include<stdio.h>
@@ -157,8 +133,8 @@ int main(){
   else  printf("not");
 }
 ```
-
-***5. FIRST OCCURANCE OF A CHARACTER 
+---
+***5. FIRST OCCURANCE OF A CHARACTER***
 
 ```C
 #include<stdio.h>
@@ -185,4 +161,4 @@ int main()
   }
 }
 ```
-6. 
+---

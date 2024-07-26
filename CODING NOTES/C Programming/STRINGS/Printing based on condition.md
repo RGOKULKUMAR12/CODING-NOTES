@@ -1,4 +1,4 @@
-***1. NON ALPHABETIC CHARACTERS
+***1. NON ALPHABETIC CHARACTERS***
 
 ```C
 #include<stdio.h>
@@ -17,7 +17,8 @@ int main(){
   }
 }
 ```
-***2. CAPITALIZING FIRST WORD
+---
+***2. CAPITALIZING FIRST WORD***
 
 ```C
 #include<stdio.h>
@@ -50,7 +51,8 @@ int main(){
   printf("%s",s);
 }
 ```
-***3. PRINTING ALTERNATIVE CHARACTERS IN STRING[IN REVERSE]
+---
+***3. PRINTING ALTERNATIVE CHARACTERS IN STRING[IN REVERSE]***
 
 ```c
 #include<stdio.h>
@@ -67,7 +69,8 @@ int main(){
   }
 }
 ```
-***4. PRINTING STRINGS WITH ODD/EVEN INDEX[2D]
+---
+***4. PRINTING STRINGS WITH ODD/EVEN INDEX[2D]***
 
 ```c
 #include<stdio.h>
@@ -91,7 +94,8 @@ int main(){
 	}
 }
 ```
-***5. REVERSING STRING AT ODD/EVEN INDEX[2D]
+---
+***5. REVERSING STRING AT ODD/EVEN INDEX[2D]***
 
 ```c
 #include<stdio.h>
@@ -118,7 +122,8 @@ int main(){
   }
 }
 ```
-***6. REPLACING LAST CHARACTER WITH ANOTHER CHARACTER
+---
+***6. REPLACING LAST CHARACTER WITH ANOTHER CHARACTER***
 
 ```c
 #include<stdio.h>
@@ -135,4 +140,81 @@ int main(){
   printf("%s",s);
 }
 ```
+---
+***7. REPLACING ALL THE OCCURANCE OF A CHARACTER WITH ANOTHER CHARACTER***
 
+```c
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+  char str[100];
+  fgets(str,sizeof(str),stdin);
+  char val;
+  scanf("%c",&val);
+  char f;
+  scanf(" %c",&f);
+  
+  for(int i=0;i<strlen(str);i++){
+    if(str[i]== val)
+    {
+      str[i] = f;
+    }
+  }
+  printf("%s",str);
+}
+```
+---
+***8. REPLACING FIRST OCCURANCE OF CHARACTER WITH ANOTHER CHARACTER***
+
+```C
+#include<stdio.h>
+#include<string.h>
+
+int main(){
+  char str[100];
+  fgets(str,sizeof(str),stdin);
+  char val;
+  scanf("%c",&val);
+  char f;
+  scanf(" %c",&f);
+  
+  for(int i=0;i<strlen(str);i++){
+    if(str[i]== val)
+    {
+      str[i] = f;
+      break;
+    }
+  }
+  printf("%s",str);
+}
+```
+---
+***9. REVERSING WORDS***
+
+```C
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+int main(){
+  char s[100];
+  fgets(s,sizeof(s),stdin);
+  s[strcspn(s,"\n")]='\0';
+  
+  char * newarr[100];
+  char * token = strtok(s," ");
+  int j=0;
+  while(token!=NULL){
+    newarr[j++] = token;
+    token = strtok(NULL," ");
+  }
+  
+  for(int i=j-1;i>=0;i--){
+    printf("%s",newarr[i]);
+    if(i<j)  printf(" ");
+  }
+  
+}
+```
+---

@@ -1,4 +1,4 @@
-***1. CHECK IF THE LENGTH OF A STRING IS PRIME OR NOT
+***1. CHECK IF THE LENGTH OF A STRING IS PRIME OR NOT***
 
 ```C
 #include<stdio.h>
@@ -31,6 +31,7 @@ int main(){
   else  printf("not a prime");
 }
 ```
+---
 ***2. CHECK WHETHER THE STRING IS PALINDROME OR NOT***
 
 ```c
@@ -56,7 +57,8 @@ int main()
   
 }
 ```
-***3. LONGEST PALINDROME SUBSTRING
+---
+***3. LONGEST PALINDROME SUBSTRING***
 
 ```c
 #include<stdio.h>
@@ -103,7 +105,8 @@ int main(){
   free(result);
 }
 ```
-***4. SWAPING ADJACENT CHARACTERS IN STRING
+---
+***4. SWAPING ADJACENT CHARACTERS IN STRING***
 
 ```c
 #include<stdio.h>
@@ -130,7 +133,8 @@ int main(){
   printf("%s",s);
 }
 ```
-***5. LATEST VERSION
+---
+***5. LATEST VERSION***
 
 ```C
 #include<stdio.h>
@@ -196,3 +200,226 @@ int main(){
 | INPUT                | OUTPUT   |
 | -------------------- | -------- |
 | 2.05.001<br>2.02.005 | version1 |
+
+---
+***6. PANAGRAM***
+
+```C
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+int main(){
+  char s[100];
+  fgets(s,sizeof(s),stdin);
+  s[strcspn(s,"\n")]='\0';
+  
+  int hash[26] = {0};
+  int x = strlen(s);
+  
+  for(int i=0;i<x;i++){
+    if(isalpha(s[i]))    hash[tolower(s[i]) - 'a']++;
+  }
+  
+  for(int i=0;i<26;i++){
+    if(hash[i] == 0){
+      printf("not a panagram");
+      return 0 ;
+    }
+  }
+  printf("panagram");
+}
+```
+---
+***7.ANAGRAM***
+*7.1 USING HASH*
+
+```C
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+int is_anagram(char s[],char s2[]){
+  int hash[26] = {0};
+  
+  int x1 = strlen(s);
+  int x2 = strlen(s2);
+  
+  if(x1 != x2)  return 0;
+  
+  for(int i=0;i<x1;i++){
+    hash[tolower(s[i])-'a']++;
+    hash[tolower(s2[i])-'a']--;
+  }
+  for(int i=0;i<26;i++){
+    if(hash[i]!=0)  return 0;
+  }
+  return 1;
+}
+
+int main(){
+  char s[100];
+  fgets(s,sizeof(s),stdin);
+  s[strcspn(s,"\n")]='\0';
+  
+  char s2[100];
+  fgets(s2,sizeof(s2),stdin);
+  s2[strcspn(s2,"\n")]='\0';
+  if(is_anagram(s,s2)){
+    printf("anagram");
+  }
+  else{
+    printf("not anagram");
+  }
+}
+```
+---
+*7.2 WITHOUT HASH*
+
+```C
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+int main(){
+  char s[100];
+  fgets(s,sizeof(s),stdin);
+  s[strcspn(s,"\n")]='\0';
+  
+  char s2[100];
+  fgets(s2,sizeof(s2),stdin);
+  s2[strcspn(s2,"\n")]='\0';
+  
+  int x1 = strlen(s);
+  int x2 = strlen(s2);
+  if(x1 != x2)
+  {
+    printf("not a anagram");
+    return 0;
+  }
+  int not_found = 0,found;
+  for(int i=0;i<x1;i++){
+    found =0;
+    for(int j=0;j<x1;j++){
+      if(s[i] == s2[j]){
+	        found = 1;
+	        break;
+       }
+    }
+    if(found == 0){
+	    not_found = 1;
+	    break;
+    }
+  }
+  if(not_found == 0)  
+	  printf("anagram");
+  else 
+	  printf("not  a anagram");
+```
+---
+***8. ISOMORPHIC***
+
+```C
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+int is_ismorphic(char * s,char * t){
+  int map1[256]={0};
+  int map2[256] = {0};
+  
+  int x = strlen(s);
+  
+  if(x!=strlen(t))  return 0;
+  
+  for(int i=0;i<x;i++){
+    if(map1[s[i]] != map2[t[i]])  return 0;
+    
+    map1[s[i]] = i+1;
+    map2[t[i]] = i+1;
+  }
+  return 1;
+}
+
+
+int main(){
+  char s[100];
+  fgets(s,sizeof(s),stdin);
+  s[strcspn(s,"\n")]='\0';
+  
+  char s2[100];
+  fgets(s2,sizeof(s2),stdin);
+  s2[strcspn(s2,"\n")]='\0';
+  
+  if(is_ismorphic(s,s2)){
+    printf("ismorphic");
+  }
+  else  printf("not");
+}
+```
+---
+***9. RAILWAY TIME***
+
+```C
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  
+  char str[100];
+  fgets(str,sizeof(str),stdin);
+  
+  if(strlen(str)!=8){
+    printf("invalid");
+    return 0;
+  }
+  
+  if(str[0]=='0' ||str[0]=='1'){
+    if(!(str[1]>='0' && str[1]<='9')){
+      printf("invalid");
+      return 0;
+    }
+  }
+  
+  else if(str[0]=='2'){
+    if(!(str[1]>='0' && str[1]<'4')){
+      printf("invalid");
+      return 0;
+    }
+  }
+  else{
+    printf("invalid");
+    return 0;
+  }
+  
+  if(str[3]>='0' && str[3] <'6'){
+    if(!(str[4]>='0' && str[4]<='9')){
+      printf("invalid");
+      return 0;
+    }
+  }
+  else{
+    printf("invalid");
+    return 0;
+  }
+  
+  if(str[6]>='0' && str[6] <'6'){
+    if(!(str[7]>='0' && str[7]<='9')){
+      printf("invalid");
+      return 0;
+    }
+  }
+  else{
+    printf("invalid");
+    return 0;
+  }
+  printf("hours:%c%c minutes:%c%c   seconds:%c%c",str[0],str[1],str[3],str[4],str[6],str[7]); 
+}
+```
+
+| S.NO |  INPUT   |             OUPUT              |
+| ---- | :------: | :----------------------------: |
+| 1    | 12:25:90 |            invalid             |
+| 2    | 12:25:50 | hours:12 minutes:25 seconds:50 |
+
+---
