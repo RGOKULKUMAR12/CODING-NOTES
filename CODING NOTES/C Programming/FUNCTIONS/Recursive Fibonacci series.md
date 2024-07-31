@@ -29,4 +29,5 @@ int main(){
 
 *RECURSIVE EXPLANATION*
 
-![[../../IMAGES/Pasted image 20240726122813.png]]
+![image](https://github.com/user-attachments/assets/9aa1da02-e7ad-4e00-a5db-4f9d10cf7d7c)
+
