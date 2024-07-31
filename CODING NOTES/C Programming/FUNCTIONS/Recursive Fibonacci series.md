@@ -8,13 +8,13 @@
 ```c
 #include<stdio.h>
 
-int fibannoci(int n){
+int fib(int n){
   if(n==0)
     return 0;
   if(n==1 || n==2)
     return 1;
   
-  return (fibannoci(n-1) + fibannoci(n-2));
+  return (fib(n-1) + fib(n-2));
 }
 
 int main(){
@@ -22,7 +22,7 @@ int main(){
   int n;
   scanf("%d",&n);
   
-  int x = fibannoci(n);
+  int x = fib(n);
   printf("%d",x);
 }
 ```
