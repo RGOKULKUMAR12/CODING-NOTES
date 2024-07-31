@@ -1,4 +1,3 @@
-
 > ***function needs to efficiently compute Fibonacci numbers up to a large index requested by the user.***
 
 | S NO | INPUT | OUTPUT |

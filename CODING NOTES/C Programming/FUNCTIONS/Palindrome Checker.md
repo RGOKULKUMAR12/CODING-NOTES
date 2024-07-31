@@ -1,4 +1,3 @@
-
 >***Functions needs to identify palindromes in user input. The function should be able to handle various types of input strings, including alphanumeric characters and punctuation.***
 
 
@@ -35,7 +34,6 @@ int ispalindrome(char str[]){
   }
   return 1;
 }
-
 
 int main(){
   char str[100];
