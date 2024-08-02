@@ -1,6 +1,5 @@
 >***Functions needs to identify palindromes in user input. The function should be able to handle various types of input strings, including alphanumeric characters and punctuation.***
 
-
 | S NO |            INPUT             | OUPUT |
 | :--: | :--------------------------: | :---: |
 |  1.  |            radar             | TRUE  |

@@ -1,6 +1,5 @@
 >***Given a string find the longest palindrome substring*** 
 
-
 | S NO | INPUT | OUTPUT |
 | ---- | ----- | ------ |
 | 01   | babad | bab    |
@@ -51,3 +50,4 @@ int main(){
   free(result);
 }
 ```
+---
