@@ -1,9 +1,9 @@
 >***Given two integers `n1` and `n2`, write a program to calculate the sum of all odd numbers between `n1` and `n2` (inclusive).***
 
-| S NO | INPUT      | OUPUT  |
-| ---- | ---------- | ------ |
-| 01   | 3<br>9<br> | 24<br> |
-| 02   | 11<br>13   | 11     |
+| S NO |   INPUT    | OUPUT  |
+| :--: | :--------: | :----: |
+|  1   | 3<br>9<br> | 24<br> |
+|  2   |  11<br>13  |   11   |
 ```c
 #include <stdio.h>
 #include <string.h>

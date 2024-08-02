@@ -1,10 +1,10 @@
 >***Given a string `s`, print all possible permutations of the string.***
 
-| S NO | INPUT | OUTPUT                                 |
-| ---- | ----- | -------------------------------------- |
-| 01   | AB    | AB<br>BA                               |
-| 02   | ABC   | ABC<br>ACB<br>BAC<br>BCA<br>CBA<br>CAB |
-| 03   | 12#   | 12#<br>1#2<br>21#<br>2#1<br>#21<br>#12 |
+| S NO | INPUT |                 OUTPUT                 |
+| :--: | :---: | :------------------------------------: |
+|  1   |  AB   |                AB<br>BA                |
+|  2   |  ABC  | ABC<br>ACB<br>BAC<br>BCA<br>CBA<br>CAB |
+|  3   |  12#  | 12#<br>1#2<br>21#<br>2#1<br>#21<br>#12 |
 ```c
 #include<string.h>
 #include<stdio.h>

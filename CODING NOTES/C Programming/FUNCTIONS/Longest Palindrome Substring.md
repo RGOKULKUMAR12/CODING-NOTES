@@ -4,7 +4,6 @@
 | :--: | :---: | :----: |
 |  1   | babad |  bab   |
 |  2   | cbbd  |   bb   |
-
 ```c
 #include <stdio.h>
 #include <string.h>

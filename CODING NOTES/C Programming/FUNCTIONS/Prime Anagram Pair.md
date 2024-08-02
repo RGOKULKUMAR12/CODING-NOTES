@@ -1,10 +1,9 @@
 >***Given two integers `n` and `n2`, write a program to find and print all pairs of prime numbers between `n` and `n2` (inclusive) that are anagrams of each other.***
 
-| S NO | INPUT        | OUTPUT             |
-| ---- | ------------ | ------------------ |
-| 01   | 10<br>50<br> | 13   31<br>17   71 |
-| 02   | 10<br>40     | 13   31            |
-
+| S NO |    INPUT     |       OUTPUT       |
+| :--: | :----------: | :----------------: |
+|  1   | 10<br>50<br> | 13   31<br>17   71 |
+|  2   |   10<br>40   |      13   31       |
 ```c
 #include <stdio.h>
 #include <string.h>

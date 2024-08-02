@@ -5,44 +5,49 @@
 |  1.  |            radar             | TRUE  |
 |  2.  |            hello             | FALSE |
 |  3.  | Was it a car or a cat I saw? | TRUE  |
-
 ```c
-#include<stdio.h>
-#include<string.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <ctype.h>
 
-int ispalindrome(char str[]){
-  char copy[100];
-  int i=0,j=0;
-  
-  while(str[i]!='\0'){
-    if(isalnum(str[i])){
-      copy[j++] = tolower(str[i]);
+int ispalindrome(char str[]) {
+    char copy[100];
+    int i = 0, j = 0;
+    
+    while (str[i] != '\0') {
+        if (isalnum(str[i])) {
+            copy[j++] = tolower(str[i]);
+        }
+        i++;
     }
-    i++;
-  }
-  copy[j] = '\0';
-  int start = 0;
-  int end = j-1;
-  
-  while(start<end){
-    if(copy[start] != copy[end])
-      return 0;
-    start++;
-    end--;
-  }
-  return 1;
+    copy[j] = '\0';
+    
+    int start = 0;
+    int end = j - 1;
+    
+    while (start < end) {
+        if (copy[start] != copy[end])
+            return 0;
+        start++;
+        end--;
+    }
+    return 1;
 }
 
-int main(){
-  char str[100];
-  fgets(str,sizeof(str),stdin);
-  
-  if(ispalindrome(str)){
-    printf("TRUE");
-  }
-  else
-    printf("FALSE");
+int main() {
+    char str[100];
+    fgets(str, sizeof(str), stdin);
+    
+    if (ispalindrome(str)) {
+        printf("TRUE");
+    } 
+    else {
+        printf("FALSE");
+    }
+
+    return 0;
 }
+
 ```
 ---

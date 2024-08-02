@@ -1,11 +1,10 @@
 >***program to calculate the sum of all odd numbers within a given range***
 
-| S NO | INPUT    | OUTPUT |
-| ---- | -------- | ------ |
-| 1    | 10<br>20 | 75     |
-| 2    | 1<br>10  | 25     |
-| 3    | 5<br>15  | 60     |
-
+| S NO |  INPUT   | OUTPUT |
+| :--: | :------: | :----: |
+|  1   | 10<br>20 |   75   |
+|  2   | 1<br>10  |   25   |
+|  3   | 5<br>15  |   60   |
 ```c
 #include<stdio.h>
 #include<string.h>

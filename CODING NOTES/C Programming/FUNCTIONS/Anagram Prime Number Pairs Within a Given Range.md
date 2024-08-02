@@ -5,7 +5,6 @@
 |  1   |  1<br>40   |            13   31             |
 |  2   | 100<br>140 |            113 131             |
 |  3   |  10<br>50  | 13   31<br>17   71<br>37    73 |
-
 ```c
 #include <stdio.h>
 #include <string.h>
