@@ -1,5 +1,4 @@
 > ***Given two integers `n1` and `n2`, write a program to calculate the number of permutations of `n1` items taken `n2` at a time. The formula for permutations is given by: $P(n1,n2)=\frac{n1!}{(n1 - n2)!}​$ where `!` denotes factorial.***
->
 
 | S N0 | INPUT            | OUTPUT |     |
 | ---- | ---------------- | :----: | --- |
