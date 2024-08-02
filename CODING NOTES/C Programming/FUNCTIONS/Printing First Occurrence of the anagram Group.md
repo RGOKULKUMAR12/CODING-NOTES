@@ -1,10 +1,15 @@
 >***Given a list of `n` strings, write a program to print the first occurrence anagram***
 
+
+| S NO | INPUT                                       | OUTPUT               |
+| ---- | ------------------------------------------- | -------------------- |
+| 1    | 6<br>cat<br>dog<br>tac<br>god<br>act<br>odg | cat<br>dog<br>       |
+| 2    | 5<br>listen<br>silent<br>dog<br>cat<br>tac  | listen<br>dog<br>cat |
+
+
 ```c
 #include <stdio.h>
 #include <string.h>
-
-// Anagram Grouping Program
 
 int is_anagram(char *str1, char *str2) {
     int hash[256] = {0};
@@ -45,7 +50,6 @@ int main() {
             for (int j = i + 1; j < n; j++) {
                 if (is_anagram(str[i], str[j])) {
                     visited[j] = 1;
-            
                 }
             }
             printf("\n");
