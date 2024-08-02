@@ -1,9 +1,9 @@
 >***Given two binary strings, write a program to convert them to decimal, calculate their sum and difference in decimal, and then convert these results back to binary.***
 
-| S NO | INPUT                | OUTPUT                                                                                                   |
-| ---- | -------------------- | -------------------------------------------------------------------------------------------------------- |
-| 01   | 1010<br>110<br>      | SUM IN DECIMAL:*12*<br>DIFF IN DECIMAL:*4*<br>SUM IN BINARY:*00001100*<br>DIFF IN BINARY:*00000100*<br>  |
-| 02   | 00101001<br>00001010 | SUM IN DECIMAL: *51*<br>DIFF IN DECIMAL: *31*<br>SUM IN BINARY: *00110011*<br>DIFF IN BINARY: *00011111* |
+| S NO |        INPUT         |                                                  OUTPUT                                                  |
+| :--: | :------------------: | :------------------------------------------------------------------------------------------------------: |
+|  01  |   1010<br>110<br>    | SUM IN DECIMAL:*12*<br>DIFF IN DECIMAL:*4*<br>SUM IN BINARY:*00001100*<br>DIFF IN BINARY:*00000100*<br>  |
+|  02  | 00101001<br>00001010 | SUM IN DECIMAL: *51*<br>DIFF IN DECIMAL: *31*<br>SUM IN BINARY: *00110011*<br>DIFF IN BINARY: *00011111* |
 ```c
 #include <stdio.h>
 #include <string.h>

@@ -1,9 +1,9 @@
 >***Given a list of `n` strings, write a program to group and print all anagram strings together.***
 
-| S NO | INPUT                                       | OUTPUT                          |
-| ---- | ------------------------------------------- | ------------------------------- |
-| 1    | 6<br>cat<br>dog<br>tac<br>god<br>act<br>odg | cat tac act<br>dog god odg<br>  |
-| 2    | 5<br>listen<br>silent<br>dog<br>cat<br>tac  | listen silent<br>dog<br>cat tac |
+| S NO |                    INPUT                    |             OUTPUT              |
+| :--: | :-----------------------------------------: | :-----------------------------: |
+|  1   | 6<br>cat<br>dog<br>tac<br>god<br>act<br>odg | cat tac act<br>dog god odg<br>  |
+|  2   | 5<br>listen<br>silent<br>dog<br>cat<br>tac  | listen silent<br>dog<br>cat tac |
 ```c
 #include <stdio.h>
 #include <string.h>
