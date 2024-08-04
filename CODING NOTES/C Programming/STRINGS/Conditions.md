@@ -316,7 +316,7 @@ int main(){
 	  printf("not  a anagram");
 ```
 ---
-### ***8. ISOMORPHIC***###
+### ***8. ISOMORPHIC*** ###
 
 ```C
 #include<stdio.h>
@@ -357,7 +357,7 @@ int main(){
 }
 ```
 ---
-### ***9. RAILWAY TIME***###
+### ***9. RAILWAY TIME*** ###
 
 ```C
 #include <stdio.h>

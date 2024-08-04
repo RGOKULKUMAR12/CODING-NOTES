@@ -1,4 +1,4 @@
-### ***1. FIRST OCCURANCE OF A CHARACTER***###
+### ***1. FIRST OCCURANCE OF A CHARACTER*** ###
 
 ```C
 #include<stdio.h>
@@ -29,7 +29,7 @@ int main(){
 }
 ```
 ---
-### ***2. FINDING LONGEST AND SMALLEST STRING[2D]***###
+### ***2. FINDING LONGEST AND SMALLEST STRING[2D]*** ###
 
 ```c
 #include<stdio.h>
@@ -64,7 +64,7 @@ int main(){
 }
 ```
 ---
-### ***3. SECOND LARGEST STRING[2D]***###
+### ***3. SECOND LARGEST STRING[2D]*** ###
 
 ```C
 #include<stdio.h>
@@ -92,7 +92,7 @@ int main(){
   }
 ```
 ---
-### ***4. FINDING NO OF PERSONS ABOVE AGE 60***###
+### ***4. FINDING NO OF PERSONS ABOVE AGE 60*** ###
 
 ```c
 #include<stdio.h>
@@ -107,7 +107,9 @@ int main(){
   for(int i=0;i<n;i++){
     scanf("%s",s[i]);
   }
+  
   int count =0;
+  
   for(int i=0;i<n;i++){
     if(s[i][11] >='6')  count++;
   }
@@ -116,12 +118,12 @@ int main(){
 }
 ```
 
-| INPUT                                                    | OUTPUT |
-| :------------------------------------------------------- | ------ |
-| 3<br>1234567890M625<br>1234567890F2666<br>1324567890M562 | 1      |
+| INPUT                                                   | OUTPUT |
+| :------------------------------------------------------ | ------ |
+| 3<br>1234567890M625<br>1234567890F266<br>1324567890M562 | 1      |
 
 ---
-### ***5. FIRST CAPITAL CHARACTER IN STRING***###
+### ***5. FIRST CAPITAL CHARACTER IN STRING*** ###
 
 ```c
 #include<stdio.h>
@@ -143,7 +145,7 @@ int main(){
 }
 ```
 ---
-### ***6. FINDING INDEX OF THE WORD***###
+### ***6. FINDING INDEX OF THE WORD*** ###
 
 ```c
 #include<stdio.h>
@@ -168,7 +170,7 @@ int main(){
 }
 ```
 ---
-### ***7. FINDING ALL INDEX OF THE WORD***###
+### ***7. FINDING ALL INDEX OF THE WORD*** ###
 
 ```c
 #include<stdio.h>
@@ -195,7 +197,7 @@ int main(){
 }
 ```
 ---
-### ***8.  SUM OF THE DIGITS IN AN STRING AND REVERSE IT***###
+### ***8.  SUM OF THE DIGITS IN AN STRING AND REVERSE IT*** ###
 
 ```C
 #include<stdio.h>
@@ -223,7 +225,7 @@ int main(){
 }
 ```
 ---
-### ***9. FINDING FIRST NON-REPEATING CHARACTER***###
+### ***9. FINDING FIRST NON-REPEATING CHARACTER*** ###
 
 *9.1 USING HASH*
 
@@ -286,7 +288,7 @@ int main(){
 }
 ```
 ---
-### ***10. FINDING LAST OCCURANCE OF A CHARACTER***###
+### ***10. FINDING LAST OCCURANCE OF A CHARACTER*** ###
 
 ```c
 #include<stdio.h>
@@ -313,7 +315,7 @@ int main()
 }
 ```
 ---
-### ***11. FINDING FIRST OCCURANCE OF A CHARACTER***###
+### ***11. FINDING FIRST OCCURANCE OF A CHARACTER*** ###
 
 ```C
 #include<stdio.h>
@@ -383,7 +385,7 @@ int main(){
 }
 ```
 ---
-### ***13. MINIMUM OCCURANCE OF A CHARACTER***###
+### ***13. MINIMUM OCCURANCE OF A CHARACTER*** ###
 
 ```c
 #include<stdio.h>
@@ -429,7 +431,7 @@ int main()
 }
 ```
 ---
-### ***14. INDEX OF ALL THE OCCURANCE OF THE CHARCTER*** ###
+### ***14. INDEX OF ALL THE OCCURANCE OF THE CHARCTER***  ###
 
 ```C
 #include<stdio.h>
@@ -458,7 +460,7 @@ int main()
 }
 ```
 ---
-### ***15. TOTAL NO OF ALPHABETS/NON ALPHABETS***###
+### ***15. TOTAL NO OF ALPHABETS/NON ALPHABETS*** ###
 
 ```C
 #include <stdio.h>
@@ -481,7 +483,7 @@ int main()
 }
 ```
 ---
-### ***16. FINDING COUNT OF VOWELS/CONSONENTS***###
+### ***16. FINDING COUNT OF VOWELS/CONSONENTS*** ###
 
 ```C
 #include <stdio.h>

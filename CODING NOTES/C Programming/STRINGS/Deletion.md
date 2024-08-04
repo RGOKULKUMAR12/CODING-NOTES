@@ -35,7 +35,7 @@ int main() {
 }
 ```
 ---
-### ***2. REMOVING ALL THE GIVEN WORD***###
+### ***2. REMOVING ALL THE GIVEN WORD*** ###
 
 ```C
 #include<stdio.h>
@@ -72,7 +72,7 @@ int main(){
 }
 ```
 ---
-### ***3. REMOVING FIRST OCCURANCE OF A WORD***###
+### ***3. REMOVING FIRST OCCURANCE OF A WORD*** ###
 
 >[!warning]
 **Open test case is wrong in ps**
@@ -114,7 +114,7 @@ int main()
 }
 ```
 ---
-### ***4. REMOVING LAST OCCURANCE OF THE WORD*** ###
+### ***4. REMOVING LAST OCCURANCE OF THE WORD***  ###
 
 ```c
 #include <stdio.h>
@@ -153,7 +153,7 @@ int main()
 }
 ```
 ---
-### ***5.REMOVING EXTRA WHITESPACES***###
+### ***5.REMOVING EXTRA WHITESPACES*** ###
 
 ```C
 #include<stdio.h>
@@ -186,7 +186,7 @@ int main()
 }
 ```
 ---
-### ***6. REMOVING LEADING WHITESPACES***###
+### ***6. REMOVING LEADING WHITESPACES*** ###
 
 ```c
 #include<stdio.h>
@@ -212,7 +212,7 @@ int main(){
 }
 ```
 ---
-### ***7. REMOVING TRAILING WHITESPACE***###
+### ***7. REMOVING TRAILING WHITESPACE*** ###
 
 ```c
 #include<stdio.h>
@@ -238,7 +238,7 @@ int main(){
 }
 ```
 ---
-### ***8. REMOVING BOTH LEADING AND TRAILING WHITESPACES***###
+### ***8. REMOVING BOTH LEADING AND TRAILING WHITESPACES*** ###
 
 ```c
 #include<stdio.h>
@@ -263,7 +263,7 @@ int main()
 }
 ```
 ---
-### ***9. REMOVING DUPLICATE CHARACTERS***###
+### ***9. REMOVING DUPLICATE CHARACTERS*** ###
 
 ```C
 #include<stdio.h>
@@ -316,7 +316,7 @@ int main()
 }
 ```
 ---
-### ***11. REMOVING FIRST OCCURANCE OF A CHARACTER***###
+### ***11. REMOVING FIRST OCCURANCE OF A CHARACTER*** ###
 
 ```c
 #include<stdio.h>

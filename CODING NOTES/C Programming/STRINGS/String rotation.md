@@ -28,7 +28,7 @@ int main(){
 }
 ```
 ---
-### ***2. RIGHT ROTATE BY 'K' TERMS***###
+### ***2. RIGHT ROTATE BY 'K' TERMS*** ###
 
 ```c
 #include<stdio.h>
@@ -60,7 +60,7 @@ int main(){
 }
 ```
 ---
-### ***3. MATRIX OPERATIONS***###
+### ***3. MATRIX OPERATIONS*** ###
 *3.1 ROTATE 90 DEGREE | CLOCKWISE*
 
 ```c
