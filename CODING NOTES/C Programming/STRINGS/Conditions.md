@@ -32,7 +32,7 @@ int main(){
 }
 ```
 ---
-### ***2. CHECK WHETHER THE STRING IS PALINDROME OR NOT*** ###
+### ***2. CHECK WHETHER THE STRING IS PALINDROME OR NOT***  ###
 
 ```c
 #include <stdio.h>
@@ -58,7 +58,7 @@ int main()
 }
 ```
 ---
-### ***3. LONGEST PALINDROME SUBSTRING***###
+### ***3. LONGEST PALINDROME SUBSTRING*** ###
 
 ```c
 #include<stdio.h>
@@ -106,7 +106,7 @@ int main(){
 }
 ```
 ---
-### ***4. SWAPING ADJACENT CHARACTERS IN STRING*** ###
+### ***4. SWAPING ADJACENT CHARACTERS IN STRING***  ###
 
 ```c
 #include<stdio.h>
