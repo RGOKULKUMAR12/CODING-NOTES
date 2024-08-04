@@ -1,4 +1,4 @@
-***1. HASHING BASIC***
+### ***1. HASHING BASIC*** ###
 
 ```C
 #include <stdio.h>
@@ -22,7 +22,7 @@ int main()
 }
 ```
 ---
-***2. PANAGRAM***
+### ***2. PANAGRAM*** ###
 
 ```C
 #include<stdio.h>
@@ -51,7 +51,7 @@ int main(){
 }
 ```
 ---
-***3.ANAGRAM***
+### ***3.ANAGRAM*** ###
 
 ```C
 #include<stdio.h>
@@ -93,7 +93,7 @@ int main(){
 }
 ```
 ---
-***4. ISOMORPHIC***
+### ***4. ISOMORPHIC*** ###
 
 ```C
 #include<stdio.h>
@@ -134,7 +134,7 @@ int main(){
 }
 ```
 ---
-***5. FIRST OCCURANCE OF A CHARACTER***
+### ***5. FIRST OCCURANCE OF A CHARACTER*** ###
 
 ```C
 #include<stdio.h>

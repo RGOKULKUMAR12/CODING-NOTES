@@ -1,5 +1,11 @@
 >***program to find and print all pairs of prime numbers within a given range that are anagrams of each other.***
 
+
+>[!Tip] 
+> - *** Check how to find :***
+> 	**1. [[../STRINGS/Conditions#7. ANAGRAM*|ANAGRAM]]**
+> 	**2. [[Prime Checker|PRIME]]**
+
 | S NO |   INPUT    |             OUTPUT             |
 | :--: | :--------: | :----------------------------: |
 |  1   |  1<br>40   |            13   31             |

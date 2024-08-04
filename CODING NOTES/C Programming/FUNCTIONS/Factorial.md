@@ -19,7 +19,7 @@ int main() {
     
     // Check if the input is non-negative
     if (n < 0) {
-        printf("Invalid input: factorial is not defined for negative numbers.\n");
+        printf("Invalid input: factorial is not defined for negative  numbers.\n");
         return 1;
     }
     

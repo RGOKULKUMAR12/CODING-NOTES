@@ -1,5 +1,8 @@
 >***Given a list of `n` strings, write a program to print the first occurrence anagram***
 
+> [!Tip]
+> - Check how to find : [[../STRINGS/Conditions#***7. ANAGRAM***|Anagram]]
+
 
 | S NO | INPUT                                       | OUTPUT               |
 | ---- | ------------------------------------------- | -------------------- |

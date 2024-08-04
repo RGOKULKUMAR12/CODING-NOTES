@@ -1,5 +1,8 @@
 >***Given a list of `n` strings, write a program to group and print all anagram strings together.***
 
+>[!Tip]
+> - **Check how to find  : [[../STRINGS/Conditions#7. ANAGRAM*|ANAGRAM]]**
+
 | S NO |                    INPUT                    |             OUTPUT              |
 | :--: | :-----------------------------------------: | :-----------------------------: |
 |  1   | 6<br>cat<br>dog<br>tac<br>god<br>act<br>odg | cat tac act<br>dog god odg<br>  |

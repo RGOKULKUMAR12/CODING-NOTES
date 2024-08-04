@@ -1,4 +1,4 @@
-***1. CHECK IF THE LENGTH OF A STRING IS PRIME OR NOT***
+### ***1. CHECK IF THE LENGTH OF A STRING IS PRIME OR NOT*** ###
 
 ```C
 #include<stdio.h>
@@ -32,7 +32,7 @@ int main(){
 }
 ```
 ---
-***2. CHECK WHETHER THE STRING IS PALINDROME OR NOT***
+### ***2. CHECK WHETHER THE STRING IS PALINDROME OR NOT*** ###
 
 ```c
 #include <stdio.h>
@@ -58,7 +58,7 @@ int main()
 }
 ```
 ---
-***3. LONGEST PALINDROME SUBSTRING***
+### ***3. LONGEST PALINDROME SUBSTRING***###
 
 ```c
 #include<stdio.h>
@@ -106,7 +106,7 @@ int main(){
 }
 ```
 ---
-***4. SWAPING ADJACENT CHARACTERS IN STRING***
+### ***4. SWAPING ADJACENT CHARACTERS IN STRING*** ###
 
 ```c
 #include<stdio.h>
@@ -134,7 +134,7 @@ int main(){
 }
 ```
 ---
-***5. LATEST VERSION***
+### ***5. LATEST VERSION*** ###
 
 ```C
 #include<stdio.h>
@@ -202,7 +202,7 @@ int main(){
 | 2.05.001<br>2.02.005 | version1 |
 
 ---
-***6. PANAGRAM***
+### ***6. PANAGRAM*** ###
 
 ```C
 #include<stdio.h>
@@ -231,8 +231,7 @@ int main(){
 }
 ```
 ---
-***7.ANAGRAM***
-*7.1 USING HASH*
+### ***7. ANAGRAM*** ###
 
 ```C
 #include<stdio.h>
@@ -317,7 +316,7 @@ int main(){
 	  printf("not  a anagram");
 ```
 ---
-***8. ISOMORPHIC***
+### ***8. ISOMORPHIC***###
 
 ```C
 #include<stdio.h>
@@ -358,7 +357,7 @@ int main(){
 }
 ```
 ---
-***9. RAILWAY TIME***
+### ***9. RAILWAY TIME***###
 
 ```C
 #include <stdio.h>

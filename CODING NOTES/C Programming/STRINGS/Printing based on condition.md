@@ -1,4 +1,4 @@
-***1. NON ALPHABETIC CHARACTERS***
+### ***1. NON ALPHABETIC CHARACTERS***###
 
 ```C
 #include<stdio.h>
@@ -18,7 +18,7 @@ int main(){
 }
 ```
 ---
-***2. CAPITALIZING FIRST WORD***
+### ***2. CAPITALIZING FIRST WORD***###
 
 ```C
 #include<stdio.h>
@@ -52,7 +52,7 @@ int main(){
 }
 ```
 ---
-***3. PRINTING ALTERNATIVE CHARACTERS IN STRING[IN REVERSE]***
+### ***3. PRINTING ALTERNATIVE CHARACTERS IN STRING[IN REVERSE]***###
 
 ```c
 #include<stdio.h>
@@ -70,7 +70,7 @@ int main(){
 }
 ```
 ---
-***4. PRINTING STRINGS WITH ODD/EVEN INDEX[2D]***
+### ***4. PRINTING STRINGS WITH ODD/EVEN INDEX[2D]***###
 
 ```c
 #include<stdio.h>
@@ -95,7 +95,7 @@ int main(){
 }
 ```
 ---
-***5. REVERSING STRING AT ODD/EVEN INDEX[2D]***
+### ***5. REVERSING STRING AT ODD/EVEN INDEX[2D]***###
 
 ```c
 #include<stdio.h>
@@ -123,7 +123,7 @@ int main(){
 }
 ```
 ---
-***6. REPLACING LAST CHARACTER WITH ANOTHER CHARACTER***
+### ***6. REPLACING LAST CHARACTER WITH ANOTHER CHARACTER***###
 
 ```c
 #include<stdio.h>
@@ -141,7 +141,7 @@ int main(){
 }
 ```
 ---
-***7. REPLACING ALL THE OCCURANCE OF A CHARACTER WITH ANOTHER CHARACTER***
+### ***7. REPLACING ALL THE OCCURANCE OF A CHARACTER WITH ANOTHER CHARACTER***###
 
 ```c
 #include<stdio.h>
@@ -165,7 +165,7 @@ int main(){
 }
 ```
 ---
-***8. REPLACING FIRST OCCURANCE OF CHARACTER WITH ANOTHER CHARACTER***
+### ***8. REPLACING FIRST OCCURANCE OF CHARACTER WITH ANOTHER CHARACTER***###
 
 ```C
 #include<stdio.h>
@@ -190,7 +190,7 @@ int main(){
 }
 ```
 ---
-***9. REVERSING WORDS***
+### ***9. REVERSING WORDS***###
 
 ```C
 #include<stdio.h>
