@@ -98,6 +98,7 @@ int main()
   if(pos!=NULL){
     index = pos - str;
   }
+  
   for(int i=index;i<strlen(str);i++){
     str[i] = str[i+x2];
   }
