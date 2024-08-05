@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CODING NOTES/C Programming/LEET CODE/Hello pc.md",
+                "file": "05-08-2024/Hi.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "CODING NOTES/C Programming/LEET CODE/Hello pc.md",
+            "file": "05-08-2024/Hi.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "CODING NOTES/C Programming/LEET CODE/Hello pc.md",
+            "file": "05-08-2024/Hi.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "CODING NOTES/C Programming/LEET CODE/Hello pc.md"
+            "file": "05-08-2024/Hi.md"
           }
         }
       }
@@ -133,6 +133,10 @@
   },
   "active": "79996fb3fa18d6d4",
   "lastOpenFiles": [
+    "CODING NOTES/C Programming/STRINGS/Conditions.md",
+    "05-08-2024/Hi.md",
+    "CODING NOTES/C Programming/FUNCTIONS/Anagram Grouping Program.md",
+    "CODING NOTES/C Programming/FUNCTIONS/Longest Palindrome Substring.md",
     "CODING NOTES/C Programming/LEET CODE/Hello pc.md"
   ]
 }
