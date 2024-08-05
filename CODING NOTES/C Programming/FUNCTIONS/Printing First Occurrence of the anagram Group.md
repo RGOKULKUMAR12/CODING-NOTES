@@ -3,6 +3,7 @@
 > [!Tip]
 > - Check how to find : [[../STRINGS/Conditions#***7. ANAGRAM***|Anagram]]
 
+[[../STRINGS/Finding something|Finding something]]
 
 | S NO | INPUT                                       | OUTPUT               |
 | ---- | ------------------------------------------- | -------------------- |
