@@ -1,13 +1,17 @@
+#datatype #difficulty
 ### *Description*  ###
 
 - Given an ....
 ---
 ### *Test Cases* ###
 
-| **S NO** | **INPUT** | **OUTPUT** | **EXPLANATION** |
-| :------: | :-------: | :--------: | :-------------: |
-|  **1**   |           |            |                 |
-|  **2**   |           |            |                 |
+| **S NO** | **INPUT** | **OUTPUT** |
+| :------: | :-------: | :--------: |
+|  **1**   |           |            |
+|  **2**   |           |            |
+
+> [!TIP]
+> EXPLANATION
 
 ---
 ### *Code* ###
