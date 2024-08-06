@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ACADEMICS/LAB SLOT/PT 1.md",
+                "file": "05-08-2024/Hi.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "ACADEMICS/LAB SLOT/PT 1.md",
+            "file": "05-08-2024/Hi.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "ACADEMICS/LAB SLOT/PT 1.md",
+            "file": "05-08-2024/Hi.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "ACADEMICS/LAB SLOT/PT 1.md"
+            "file": "05-08-2024/Hi.md"
           }
         }
       }
@@ -131,8 +131,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1b44a0f92cccb6c",
+  "active": "79996fb3fa18d6d4",
   "lastOpenFiles": [
+    "ACADEMICS/LAB SLOT/PT 1.md",
     "CODING NOTES/C Programming/LEET CODE/9. Palindrome Number.md",
     "CODING NOTES/C Programming/LEET CODE/9. Palindrome Number.md.tacitpart",
     "CODING NOTES/C Programming/LEET CODE/628. Max Product of Three Numbers in Array.md.tacitpart",
