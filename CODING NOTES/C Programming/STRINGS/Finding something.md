@@ -495,8 +495,7 @@ int main()
   fgets(str,sizeof(str),stdin);
   int count=0,count1 = 0;
   
-  for(int i=0;str[i]!=0;i++)
-  {
+  for(int i=0;str[i]!=0;i++){
     tolower(str[i]);
     if(!(str[i]=='a'|| str[i]=='e'||  str[i]=='i'|| str[i]=='o'|| str[i]=='u'))
     {
@@ -504,14 +503,14 @@ int main()
       count++;
       continue;
     }
-    else
-    {
-    printf("%c",str[i]);
-    count1++;
+    else{
+	    printf("%c",str[i]);
+	    count1++;
     }
   }
   printf("\n%d\n%d",count,count1);
 }
+
 ```
 ---
 
