@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-08-2024/Hi.md",
-                "mode": "preview",
+                "file": "05-08-2024/Untitled.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "05-08-2024/Hi.md",
+            "file": "05-08-2024/Untitled.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "05-08-2024/Hi.md",
+            "file": "05-08-2024/Untitled.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "05-08-2024/Hi.md"
+            "file": "05-08-2024/Untitled.md"
           }
         }
       }
@@ -133,7 +133,16 @@
   },
   "active": "79996fb3fa18d6d4",
   "lastOpenFiles": [
+    "ACADEMICS/Tasks.md",
+    "05-08-2024/Untitled.md",
+    "CODING NOTES/C Programming/LEET CODE/3016. Minimum Number of Pushes to Type Word II.md",
     "ACADEMICS/LAB SLOT/PT 1.md",
+    "CODING NOTES/C Programming/LEET CODE/58. Length of Last Word.md",
+    "Heijdj.canvas",
+    "CODING NOTES/C Programming/LEET CODE/Untitled.md",
+    "CODING NOTES/C Programming/LEET CODE/2053. Kth Distinct String in an Array.md",
+    "README.md",
+    "05-08-2024/Hi.md",
     "CODING NOTES/C Programming/LEET CODE/9. Palindrome Number.md",
     "CODING NOTES/C Programming/LEET CODE/9. Palindrome Number.md.tacitpart",
     "CODING NOTES/C Programming/LEET CODE/628. Max Product of Three Numbers in Array.md.tacitpart",
@@ -146,7 +155,6 @@
     "CODING NOTES/C Programming/LEET CODE/27. Remove Element.md.tacitpart",
     "CODING NOTES/C Programming/LEET CODE/1. Two Sum.md",
     "CODING NOTES/C Programming/LEET CODE/1. Two Sum.md.tacitpart",
-    "05-08-2024/Hi.md",
     "CODING NOTES/C Programming/STRINGS/Conditions.md",
     "CODING NOTES/C Programming/FUNCTIONS/Anagram Grouping Program.md",
     "CODING NOTES/C Programming/FUNCTIONS/Longest Palindrome Substring.md",
