@@ -144,3 +144,22 @@ double: 4.355453532
 long: 12121
 
 ```
+
+### Non Primitive or Reference Data Type: ###
+
+>[!info]
+>The Reference Data Types will `contain a memory address of variable values` because the reference types `won’t store the variable value directly in memory.
+`
+
+1. **Strings:**
+   - Strings are `Array of Characters.`
+   - The difference between a character array and a string in Java is, that the `string is designed to hold a sequence of characters in a single variable` whereas, `a character array is a collection of separate char-type entities`.
+   - Unlike C/C++, `Java strings are not terminated with a null character`.
+   >[!example]
+   >- Character Array: `char[] charArray = {'H', 'e', 'l', 'l', 'o'}`;
+   >- String : String `str = "Hello"`;
+
+- Syntax: `<String_Type> <string_variable> = “<sequence_of_string>”;` 
+>[!example]
+>- Declare String without using new operator: `String s = "GeeksforGeeks";`
+>- Declare String using new operator : `String s1 = new String("GeeksforGeeks");`
