@@ -376,3 +376,42 @@ class Main {
 > 	    `int count  = (int)Math.floor(Math.log10(n1) + 1);`  `
 
 ---
+## ***Swapping First and Last*** ##
+
+```java
+import java.util.*;
+
+class Main {
+  
+    public static void main(String... args) {
+        Scanner n = new Scanner(System.in);
+        
+        int n1 = n.nextInt();
+        int digits = (int) Math.floor(Math.log10(n1) + 1);
+        int power = (int) Math.pow(10, digits - 1); 
+        
+        int first = n1 / power;
+        int last = n1 % 10;
+        
+        first = (first + last) - (last = first);
+        
+        System.out.println(first + " " + last);
+        
+        int fina = first * power + ((n1 % power) / 10) * 10 + last;
+        
+        System.out.println(fina);
+    }
+}
+
+
+```
+
+| INPUT | OUTPUT  |
+| ----- | ------- |
+| 5     | 55      |
+| -1    | Invalid |
+ >[!Tip]
+ >	- To swap two Integers
+ >		` first = (first + last) - (last = first);`
+
+---
