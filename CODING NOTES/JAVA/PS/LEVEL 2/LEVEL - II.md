@@ -1,4 +1,4 @@
-## ***Fibonacci Series***##
+## ***Fibonacci Series*** ##
 
 ```java
 import java.util.*;
@@ -33,7 +33,7 @@ class Main {
 | -1    | Invalid        |
 
 ---
-## ***Next Five Prime***##
+## ***Next Five Prime*** ##
 
 ```java
 import java.util.*;
@@ -76,7 +76,7 @@ class Main {
 | 20    | 23<br>29<br>31<br>37<br>41      |
 
 ---
-## ***Prime or Composite***##
+## ***Prime or Composite*** ##
 
 ```java
 import java.util.*;
@@ -111,7 +111,7 @@ class Main {
 ```
 
 ---
-## ***Series and Sum***##
+## ***Series and Sum*** ##
 
 ```java
 import java.util.*;
@@ -149,7 +149,7 @@ class Main {
 | 3<br>4  | 3+33+333+3333<br>3702                 |
 
 ---
-## ***Divisors Sum Equality***##
+## ***Divisors Sum Equality*** ##
 
 ```java
 import java.util.*;
@@ -188,7 +188,7 @@ class Main {
 | 42    | 1 2 3 6 7 14 21 <br>54<br>42 is not an Equal Number<br> |
 
 ---
-## ***Abudant Number***##
+## ***Abudant Number*** ##
 
 ```java
 import java.util.*;
