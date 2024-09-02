@@ -223,3 +223,156 @@ class Main {
 | 13    | 13 is not an Abudant Number |
 
 ---
+## ***Count of Leap Years and Non-Leap Years in a Decade*** ##
+
+```java
+import java.util.*;
+
+class Main {
+
+    public static int is_leap(int n) {
+        if ((n % 4 == 0 && n % 100 != 0) || n % 400 == 0)
+            return 1;
+        return 0;
+    } 
+    
+    public static void main(String... args) {
+        Scanner n = new Scanner(System.in);
+        
+        int n1 = n.nextInt();
+        if (is_leap(n1) == 1)
+            System.out.println(n1 + " is a leap year");
+        else
+            System.out.println(n1 + " is not a leap year");
+        
+        int leap = 0, non_leap = 0;
+        
+        for (int i = n1 + 1; i <= n1 + 10; i++) {
+            if (is_leap(i) == 1)
+                leap++;
+            else
+                non_leap++;
+        }
+        
+        System.out.println("Leap Years: " + leap);
+        System.out.println("Non-Leap Years: " + non_leap);
+    }
+}
+
+```
+
+| INPUT | OUTPUT                                                           |
+| ----- | ---------------------------------------------------------------- |
+| 2024  | 2024 is a Leap Year. <br>Leap Years: 2 <br>Non-Leap Years: 8     |
+| 2010  | 2010 is not a Leap Year.<br> Leap Years: 3 <br>Non-Leap Years: 7 |
+
+---
+## ***Geometric Series*** ##
+
+```java
+import java.util.*;
+
+class Main {
+
+    public static void main(String... args) {
+        Scanner n = new Scanner(System.in);
+        
+        int n1 = n.nextInt();
+        float b = 1.0f, sum = 0.0f;
+        
+        if (n1 < 0) {
+            System.out.print("0.00");
+            System.exit(0);
+        }
+        
+        for (int i = 1; i <= n1; i++) {
+            sum += 1.0 / b;
+            b *= 2;
+        }
+        
+        System.out.printf("%.2f", sum);
+    }
+}
+
+
+```
+
+| INPUT | OUTPUT  |
+| ----- | ------- |
+| 3     | 1.75    |
+| -2    | Invalid |
+
+---
+## ***Sum of N Square Numbers*** ##
+
+```java
+import java.util.*;
+
+class Main {
+
+    public static void main(String... args) {
+        Scanner n = new Scanner(System.in);
+        
+        int n1 = n.nextInt();
+        if (n1 <= 0) {
+            System.out.print("Invalid");
+            System.exit(0);
+        }
+        
+        int sum = 0;
+        for (int i = 1; i <= n1; i++) {
+            sum += (i * i);
+        }
+        
+        System.out.println(sum);
+    }
+}
+
+```
+
+| INPUT | OUTPUT  |
+| ----- | ------- |
+| 5     | 55      |
+| -1    | Invalid |
+
+---
+## ***Harmonic Series*** ##
+
+```java
+import java.util.*;
+
+class Main {
+
+    public static void main(String... args) {
+        Scanner n = new Scanner(System.in);
+        
+        int n1 = n.nextInt();
+        float ans = 0.0f;
+        
+        if (n1 <= 0) {
+            System.out.print("Invalid");
+            System.exit(0);
+        }
+        
+        for (int i = 1; i <= n1; i++) {
+            ans += 1.0 / i;
+        }
+        
+        System.out.printf("%.2f", ans);
+    }
+}
+
+```
+
+| INPUT | OUTPUT  |
+| ----- | ------- |
+| 4     | 2.08    |
+| -1    | Invalid |
+
+---
+
+>[!Tip]
+>- TO FIND NO OF DIGITS IN AN NUMBER
+> 	    `int count  = (int)Math.floor(Math.log10(n1) + 1);`  `
+
+---
