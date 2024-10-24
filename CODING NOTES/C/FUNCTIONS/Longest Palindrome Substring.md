@@ -25,7 +25,6 @@ char *longestpalindrom(char *s) {
     int len = strlen(s);
     int max = 0, ss;
     char *resStr = malloc((len + 1) * sizeof(char));
-
     for (int i = 0; i < len; i++) {
         ss = 0;
         for (int j = len - 1; j >= i; j--) {
@@ -45,8 +44,9 @@ char *longestpalindrom(char *s) {
 int main() {
     char s[100];
     fgets(s, sizeof(s), stdin);
-
+    
     char *result = longestpalindrom(s);
+    
     printf("%s", result);
     free(result);
 }
