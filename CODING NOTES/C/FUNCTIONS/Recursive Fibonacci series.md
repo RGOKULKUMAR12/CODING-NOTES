@@ -19,10 +19,10 @@ int fib(int n) {
 int main() {
     int n;
     scanf("%d", &n);
-
+    
     int x = fib(n);
     printf("%d", x);
-
+    
     return 0;
 }
 

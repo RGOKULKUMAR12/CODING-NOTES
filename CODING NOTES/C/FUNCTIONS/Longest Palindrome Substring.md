@@ -21,7 +21,7 @@ bool isvalid(char *s, int start, int e) {
     return true;
 }
 
-char *longestpalindrom(char *s) {
+char *longestpalindrom(char * s) {
     int len = strlen(s);
     int max = 0, ss;
     char *resStr = malloc((len + 1) * sizeof(char));
